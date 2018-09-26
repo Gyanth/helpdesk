@@ -20,7 +20,7 @@
     <XsdCodeGenReuseTypesMode>Partial</XsdCodeGenReuseTypesMode>
     <XsdCodeGenReferences>CapaDatos%3bCapaEntidades%3bCapaNegocio%3bMicrosoft.VisualBasic%3bmscorlib%3bSystem%3bSystem.Configuration%3bSystem.Core%3bSystem.Data%3bSystem.Runtime.Serialization%3bSystem.ServiceModel%3bSystem.Web.Extensions%3bSystem.Xml%3bSystem.Xml.Linq</XsdCodeGenReferences>
     <XsdCodeGenNamespaceMappings>%2a, ContractTypes</XsdCodeGenNamespaceMappings>
-    <XsdCodeGenCollectionTypes>System.Collections.ObjectModel.Collection`1%3bSystem.Collections.Generic.Dictionary`2</XsdCodeGenCollectionTypes>
+    <XsdCodeGenCollectionTypes>System.Array%3bSystem.Collections.Generic.Dictionary`2</XsdCodeGenCollectionTypes>
     <XsdCodeGenExcludedTypes />
     <XsdCodeGenImportXmlTypes>True</XsdCodeGenImportXmlTypes>
     <XsdCodeGenGenerateSerializableTypes>True</XsdCodeGenGenerateSerializableTypes>

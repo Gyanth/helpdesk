@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsConexion.vb" />
+    <Compile Include="clsConexion_Externa.vb" />
     <Compile Include="CtrServidorBD.vb" />
     <Compile Include="CtrUsuario.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />

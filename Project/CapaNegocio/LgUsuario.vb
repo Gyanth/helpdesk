@@ -28,5 +28,11 @@ Public Class LgUsuario
     Public Sub ValidarPermiso()
 
     End Sub
+    Public Sub registrarInicioSesion(usuario As Integer, sistema As String)
+        Dim ctr2 As New CtrUsuario
+        ctr2.iniciarSesion(usuario, sistema)
+    End Sub
+
+
 End Class
 

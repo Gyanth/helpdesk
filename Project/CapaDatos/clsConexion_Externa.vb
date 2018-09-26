@@ -1,6 +1,7 @@
 ﻿Imports System.Data
+
 Imports System.Data.SqlClient
-Public Class clsConexion
+Public Class clsConexion_Externa
 #Region "Campos"
     Private mUsuario As String 'Usuario de la BD
     Private mPassword As String 'Clave Servidor
@@ -68,10 +69,6 @@ Public Class clsConexion
     End Property
 #End Region
 
-
-
-
-
     Public Function ConexionBD() As SqlConnection
         ' Crea y establece la cadena de conexion debiéndosele enviar los parametros
         ' vamos a declarar de que computadora y que servidor estoy jalando la cadena de conexion  
@@ -83,21 +80,35 @@ Public Class clsConexion
     End Function
 
 
-    Public Function ejecutarQuery(query As String) As DataTable
-
+    Public Function ejecutarQuery(query As String) As CapaEntidades.ClsQuery
+        Dim rpt As New CapaEntidades.ClsQuery
+        Dim datatable As DataTable = New DataTable
         Dim cmd As SqlCommand = New SqlCommand(query, Me.Conn)
         Me.Conn.Open()
-        cmd.ExecuteNonQuery()
+        Try
 
-        Dim dataAdapter As SqlDataAdapter = New SqlDataAdapter()
-        dataAdapter.SelectCommand = cmd
 
-        Dim datatable = New DataTable
+            Dim rowsAffected As Integer = cmd.ExecuteNonQuery()
+            If (rowsAffected = -1) Then
+                Dim dataAdapter As SqlDataAdapter = New SqlDataAdapter()
+                dataAdapter.SelectCommand = cmd
+                dataAdapter.Fill(datatable)
+                rpt.ResponseString = "Consulta ejecutada correctamente!"
+            Else
+                rpt.ResponseString = "( " & rowsAffected & " filas afectadas)"
+            End If
 
-        dataAdapter.Fill(datatable)
-        Me.Conn.Close()
+            Me.Conn.Close()
+            rpt.Success = True
+            rpt.ResponseTable = datatable
+            rpt.ResponseTable.TableName = "consulta"
+        Catch ex As Exception
+            rpt.Success = False
+            rpt.ResponseString = ex.Message
 
-        Return datatable
+            Me.Conn.Close()
+        End Try
+
+        Return rpt
     End Function
 End Class
-

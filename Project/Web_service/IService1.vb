@@ -10,7 +10,8 @@ Public Interface IService1
 
     <OperationContract()>
     Function getListaServidoresBD() As DataTable
-
+    <OperationContract()>
+    Function realizarQuery(parametros As ParametrosConexion) As PeticionBD
 
     ' TODO: agregue aquí sus operaciones de servicio
 
@@ -29,18 +30,36 @@ Public Class ClsUsuarioWeb
 
     <DataMember()>
     Public Property password As String
-
+    <DataMember()>
+    Public Property sistema As String
 
 
 End Class
 
 <DataContract()>
-Public Class ServidoresBD
+Public Class PeticionBD
 
     <DataMember()>
-    Public Property lista As DataTable
+    Public Property responseTable As DataTable
     <DataMember()>
-    Public Property pruebas As String
+    Public Property responseString As String
+    <DataMember()>
+    Public Property Success As Integer
 
+End Class
+
+Public Class ParametrosConexion
+    <DataMember()>
+    Public Property hostname As String
+    <DataMember()>
+    Public Property username As String
+    <DataMember()>
+    Public Property password As String
+    <DataMember()>
+    Public Property bd As String
+    <DataMember()>
+    Public Property idUSer As Integer
+    <DataMember()>
+    Public Property query As String
 
 End Class

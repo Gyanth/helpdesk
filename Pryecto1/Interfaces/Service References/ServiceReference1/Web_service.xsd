@@ -3,8 +3,40 @@
   <xs:complexType name="ClsUsuarioWeb">
     <xs:sequence>
       <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sistema" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="usuario" nillable="true" type="xs:string" />
     </xs:sequence>
   </xs:complexType>
   <xs:element name="ClsUsuarioWeb" nillable="true" type="tns:ClsUsuarioWeb" />
+  <xs:complexType name="ParametrosConexion">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="bd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="hostname" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="idUSer" type="xs:int" />
+      <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="query" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ParametrosConexion" nillable="true" type="tns:ParametrosConexion" />
+  <xs:complexType name="PeticionBD">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Success" type="xs:int" />
+      <xs:element minOccurs="0" name="responseString" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="responseTable" nillable="true">
+        <xs:complexType>
+          <xs:annotation>
+            <xs:appinfo>
+              <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+            </xs:appinfo>
+          </xs:annotation>
+          <xs:sequence>
+            <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+            <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PeticionBD" nillable="true" type="tns:PeticionBD" />
 </xs:schema>

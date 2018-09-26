@@ -86,7 +86,17 @@ Public Class CtrUsuario
         Dim res = Com.Parameters("@resultado").Value
         Return res
     End Function
+    Public Function iniciarSesion(usuario As Integer, sistema As String) As Boolean
+        Dim con As clsConexion = clsConexion.Instance
+        con.Conn.Open()
 
+        Dim Com As New SqlCommand("nuevoinicio", con.Conn)
+        Com.CommandType = CommandType.StoredProcedure
+        Com.Parameters.Add("@iduser", SqlDbType.Int).Value = usuario
+        Com.Parameters.Add("@sistema", SqlDbType.VarChar).Value = sistema
+        Com.ExecuteNonQuery()
+        con.Conn.Close()
+    End Function
     Public Function validarUsuario(usuario As String, id_p As Integer) As Boolean
         Dim con As clsConexion = clsConexion.Instance
         con.Conn.Open()

@@ -28,10 +28,10 @@ Partial Class Frm_Comandos
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.dgv_visualizardatos = New System.Windows.Forms.DataGridView()
-        Me.txt_errores = New System.Windows.Forms.TextBox()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.btn_nuevaconsulta = New System.Windows.Forms.Button()
         Me.btn_regresar = New System.Windows.Forms.Button()
+        Me.txt_errores = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.dgv_visualizardatos, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -100,27 +100,17 @@ Partial Class Frm_Comandos
         Me.dgv_visualizardatos.Size = New System.Drawing.Size(388, 214)
         Me.dgv_visualizardatos.TabIndex = 0
         '
-        'txt_errores
-        '
-        Me.txt_errores.Enabled = False
-        Me.txt_errores.Location = New System.Drawing.Point(8, 23)
-        Me.txt_errores.Margin = New System.Windows.Forms.Padding(4)
-        Me.txt_errores.Multiline = True
-        Me.txt_errores.Name = "txt_errores"
-        Me.txt_errores.Size = New System.Drawing.Size(801, 163)
-        Me.txt_errores.TabIndex = 1
-        '
         'GroupBox3
         '
         Me.GroupBox3.Controls.Add(Me.txt_errores)
-        Me.GroupBox3.Location = New System.Drawing.Point(16, 305)
+        Me.GroupBox3.Location = New System.Drawing.Point(16, 376)
         Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox3.Size = New System.Drawing.Size(819, 194)
+        Me.GroupBox3.Size = New System.Drawing.Size(819, 123)
         Me.GroupBox3.TabIndex = 6
         Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Errores"
+        Me.GroupBox3.Text = "Consola"
         '
         'btn_nuevaconsulta
         '
@@ -141,6 +131,14 @@ Partial Class Frm_Comandos
         Me.btn_regresar.TabIndex = 8
         Me.btn_regresar.Text = "Regresar"
         Me.btn_regresar.UseVisualStyleBackColor = True
+        '
+        'txt_errores
+        '
+        Me.txt_errores.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_errores.Location = New System.Drawing.Point(12, 23)
+        Me.txt_errores.Name = "txt_errores"
+        Me.txt_errores.Size = New System.Drawing.Size(776, 96)
+        Me.txt_errores.TabIndex = 0
         '
         'Frm_Comandos
         '
@@ -164,7 +162,6 @@ Partial Class Frm_Comandos
         Me.GroupBox2.ResumeLayout(False)
         CType(Me.dgv_visualizardatos, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox3.ResumeLayout(False)
-        Me.GroupBox3.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -175,9 +172,9 @@ Partial Class Frm_Comandos
     Friend WithEvents lbl_mostrarservidor As Label
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents txt_errores As TextBox
     Friend WithEvents GroupBox3 As GroupBox
     Friend WithEvents dgv_visualizardatos As DataGridView
     Friend WithEvents btn_nuevaconsulta As Button
     Friend WithEvents btn_regresar As Button
+    Friend WithEvents txt_errores As Label
 End Class

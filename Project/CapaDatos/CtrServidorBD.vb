@@ -26,4 +26,21 @@ Public Class CtrServidorBD
         Return Tabla
     End Function
 
+
+    Public Sub registrarEjecuciones(idUSer As Integer, query As String, response As String)
+
+        Dim con As clsConexion = clsConexion.Instance
+        con.Conn.Open()
+
+        Dim Com As New SqlCommand("registrarEjecucion", con.Conn)
+        Com.CommandType = CommandType.StoredProcedure
+        Com.Parameters.Add("@iduser", SqlDbType.Int).Value = idUSer
+        Com.Parameters.Add("@query", SqlDbType.Text).Value = query
+        Com.Parameters.Add("@str", SqlDbType.Text).Value = response
+
+        Com.ExecuteNonQuery()
+        con.Conn.Close()
+
+    End Sub
+
 End Class

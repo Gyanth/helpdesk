@@ -1,6 +1,8 @@
 ﻿' NOTA: puede usar el comando "Cambiar nombre" del menú contextual para cambiar el nombre de clase "Service1" en el código y en el archivo de configuración a la vez.
 
 Imports CapaNegocio
+Imports Web_service
+
 Public Class Service1
     Implements IService1
 
@@ -23,7 +25,9 @@ Public Class Service1
 
             temp = ctr.procesarLogin(cls)
             If temp.Rows.Count > 0 Then
-                Return temp.Rows(0).Item(0)
+                Dim iduser As Integer = temp.Rows(0).Item(0)
+                ctr.registrarInicioSesion(iduser, composite.sistema)
+                Return iduser
             End If
         End If
         Return -1
@@ -33,25 +37,35 @@ Public Class Service1
     Public Function getListaServidoresBDLogin() As DataTable Implements IService1.getListaServidoresBD
 
 
-
-
-        Dim s As New ServidoresBD
-        s.pruebas = "hoka"
-
-        '  s.lista = temp
-
         Dim ctr As New LgServidorBD
 
         Dim temp As DataTable = ctr.listaServidoresBD
         temp.TableName = "lista"
-
-
         Return temp
-
-
-
 
 
     End Function
 
+    Public Function realizarQuery(parametros As ParametrosConexion) As PeticionBD Implements IService1.realizarQuery
+        Dim clscon As New CapaDatos.clsConexion_Externa
+        clscon.Servidor = parametros.hostname
+        clscon.Password = parametros.password
+        clscon.Usuario = parametros.username
+        clscon.BaseDatos = parametros.bd
+        clscon.ConexionBD()
+
+        Dim rpt As CapaEntidades.ClsQuery = clscon.ejecutarQuery(parametros.query)
+
+        Dim response As New PeticionBD
+        response.responseTable = rpt.ResponseTable
+        response.responseString = rpt.ResponseString
+        response.Success = rpt.Success
+
+        Dim ctrServidor As New CapaNegocio.LgServidorBD
+
+        ctrServidor.registrarEjecuciones(parametros.idUSer, parametros.query, rpt.ResponseString)
+        Return response
+
+
+    End Function
 End Class

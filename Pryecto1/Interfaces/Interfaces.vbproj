@@ -74,7 +74,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClaseCone\clsConexion.vb" />
     <Compile Include="Frm_BaseDatos.Designer.vb">
       <DependentUpon>Frm_BaseDatos.vb</DependentUpon>
     </Compile>
@@ -119,6 +118,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Variables.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Frm_BaseDatos.resx">
@@ -154,13 +154,7 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\ServiceReference1\Interfaces.ServiceReference1.GetDataResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\ServiceReference1\Interfaces.ServiceReference1.getListaServidoresBDResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\ServiceReference1\Interfaces.ServiceReference1.validarLoginResponse.datasource">
+    <None Include="Service References\ServiceReference1\Interfaces.ServiceReference1.PeticionBD.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\ServiceReference1\service.wsdl" />

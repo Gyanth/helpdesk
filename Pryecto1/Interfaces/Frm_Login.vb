@@ -2,6 +2,7 @@
 Public Class Frm_Login
     Public Cont As Integer
     Public idUsuario As Integer
+    Public NombreSistema As String = "SISTEMA"
 
     Private Sub btn_salir_Click(sender As Object, e As EventArgs) Handles btn_salir.Click
         If MsgBox("¿Estas Seguro que quieres salir?", MsgBoxStyle.YesNo Or MsgBoxStyle.DefaultButton2, "Cerrar Aplicacion") = DialogResult.Yes Then
@@ -21,22 +22,19 @@ Public Class Frm_Login
                 MsgBox("Ingresar Datos, Por Favor..!", MsgBoxStyle.Critical, "Sistema HelpDesk")
                 Exit Sub
             Else
-                Dim cls As New ServiceReference1.validarLoginRequest
                 Dim cls_user = New ServiceReference1.ClsUsuarioWeb
 
 
                 cls_user.usuario = txt_usuariologin.Text
                 cls_user.password = txt_contraseñalogin.Text
-                cls.usue = cls_user
+                cls_user.sistema = NombreSistema
 
                 Dim cliente As ServiceReference1.Service1Client = New ServiceReference1.Service1Client
 
 
-                Dim response As ServiceReference1.validarLoginResponse = cliente.validarLogin(cls)
-                Dim rptVal As Integer = response.validarLoginResult
+                Dim rptVal As Integer = cliente.validarLogin(cls_user)
 
-
-
+                Variables.idUSer = rptVal
 
                 If rptVal > 0 Then
                     BarraProgreso.Visible = True
@@ -111,6 +109,10 @@ Public Class Frm_Login
     End Sub
 
     Private Sub Frm_Login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
 
     End Sub
 End Class

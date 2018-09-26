@@ -31,6 +31,9 @@ Namespace ServiceReference1
         Private passwordField As String
         
         <System.Runtime.Serialization.OptionalFieldAttribute()>  _
+        Private sistemaField As String
+        
+        <System.Runtime.Serialization.OptionalFieldAttribute()>  _
         Private usuarioField As String
         
         <Global.System.ComponentModel.BrowsableAttribute(false)>  _
@@ -52,6 +55,19 @@ Namespace ServiceReference1
                 If (Object.ReferenceEquals(Me.passwordField, value) <> true) Then
                     Me.passwordField = value
                     Me.RaisePropertyChanged("password")
+                End If
+            End Set
+        End Property
+        
+        <System.Runtime.Serialization.DataMemberAttribute()>  _
+        Public Property sistema() As String
+            Get
+                Return Me.sistemaField
+            End Get
+            Set
+                If (Object.ReferenceEquals(Me.sistemaField, value) <> true) Then
+                    Me.sistemaField = value
+                    Me.RaisePropertyChanged("sistema")
                 End If
             End Set
         End Property
@@ -79,128 +95,228 @@ Namespace ServiceReference1
         End Sub
     End Class
     
+    <System.Diagnostics.DebuggerStepThroughAttribute(),  _
+     System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0"),  _
+     System.Runtime.Serialization.DataContractAttribute(Name:="ParametrosConexion", [Namespace]:="http://schemas.datacontract.org/2004/07/Web_service"),  _
+     System.SerializableAttribute()>  _
+    Partial Public Class ParametrosConexion
+        Inherits Object
+        Implements System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged
+        
+        <System.NonSerializedAttribute()>  _
+        Private extensionDataField As System.Runtime.Serialization.ExtensionDataObject
+        
+        <System.Runtime.Serialization.OptionalFieldAttribute()>  _
+        Private bdField As String
+        
+        <System.Runtime.Serialization.OptionalFieldAttribute()>  _
+        Private hostnameField As String
+        
+        <System.Runtime.Serialization.OptionalFieldAttribute()>  _
+        Private idUSerField As Integer
+        
+        <System.Runtime.Serialization.OptionalFieldAttribute()>  _
+        Private passwordField As String
+        
+        <System.Runtime.Serialization.OptionalFieldAttribute()>  _
+        Private queryField As String
+        
+        <System.Runtime.Serialization.OptionalFieldAttribute()>  _
+        Private usernameField As String
+        
+        <Global.System.ComponentModel.BrowsableAttribute(false)>  _
+        Public Property ExtensionData() As System.Runtime.Serialization.ExtensionDataObject Implements System.Runtime.Serialization.IExtensibleDataObject.ExtensionData
+            Get
+                Return Me.extensionDataField
+            End Get
+            Set
+                Me.extensionDataField = value
+            End Set
+        End Property
+        
+        <System.Runtime.Serialization.DataMemberAttribute()>  _
+        Public Property bd() As String
+            Get
+                Return Me.bdField
+            End Get
+            Set
+                If (Object.ReferenceEquals(Me.bdField, value) <> true) Then
+                    Me.bdField = value
+                    Me.RaisePropertyChanged("bd")
+                End If
+            End Set
+        End Property
+        
+        <System.Runtime.Serialization.DataMemberAttribute()>  _
+        Public Property hostname() As String
+            Get
+                Return Me.hostnameField
+            End Get
+            Set
+                If (Object.ReferenceEquals(Me.hostnameField, value) <> true) Then
+                    Me.hostnameField = value
+                    Me.RaisePropertyChanged("hostname")
+                End If
+            End Set
+        End Property
+        
+        <System.Runtime.Serialization.DataMemberAttribute()>  _
+        Public Property idUSer() As Integer
+            Get
+                Return Me.idUSerField
+            End Get
+            Set
+                If (Me.idUSerField.Equals(value) <> true) Then
+                    Me.idUSerField = value
+                    Me.RaisePropertyChanged("idUSer")
+                End If
+            End Set
+        End Property
+        
+        <System.Runtime.Serialization.DataMemberAttribute()>  _
+        Public Property password() As String
+            Get
+                Return Me.passwordField
+            End Get
+            Set
+                If (Object.ReferenceEquals(Me.passwordField, value) <> true) Then
+                    Me.passwordField = value
+                    Me.RaisePropertyChanged("password")
+                End If
+            End Set
+        End Property
+        
+        <System.Runtime.Serialization.DataMemberAttribute()>  _
+        Public Property query() As String
+            Get
+                Return Me.queryField
+            End Get
+            Set
+                If (Object.ReferenceEquals(Me.queryField, value) <> true) Then
+                    Me.queryField = value
+                    Me.RaisePropertyChanged("query")
+                End If
+            End Set
+        End Property
+        
+        <System.Runtime.Serialization.DataMemberAttribute()>  _
+        Public Property username() As String
+            Get
+                Return Me.usernameField
+            End Get
+            Set
+                If (Object.ReferenceEquals(Me.usernameField, value) <> true) Then
+                    Me.usernameField = value
+                    Me.RaisePropertyChanged("username")
+                End If
+            End Set
+        End Property
+        
+        Public Event PropertyChanged As System.ComponentModel.PropertyChangedEventHandler Implements System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+        
+        Protected Sub RaisePropertyChanged(ByVal propertyName As String)
+            Dim propertyChanged As System.ComponentModel.PropertyChangedEventHandler = Me.PropertyChangedEvent
+            If (Not (propertyChanged) Is Nothing) Then
+                propertyChanged(Me, New System.ComponentModel.PropertyChangedEventArgs(propertyName))
+            End If
+        End Sub
+    End Class
+    
+    <System.Diagnostics.DebuggerStepThroughAttribute(),  _
+     System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0"),  _
+     System.Runtime.Serialization.DataContractAttribute(Name:="PeticionBD", [Namespace]:="http://schemas.datacontract.org/2004/07/Web_service"),  _
+     System.SerializableAttribute()>  _
+    Partial Public Class PeticionBD
+        Inherits Object
+        Implements System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged
+        
+        <System.NonSerializedAttribute()>  _
+        Private extensionDataField As System.Runtime.Serialization.ExtensionDataObject
+        
+        <System.Runtime.Serialization.OptionalFieldAttribute()>  _
+        Private SuccessField As Integer
+        
+        <System.Runtime.Serialization.OptionalFieldAttribute()>  _
+        Private responseStringField As String
+        
+        <System.Runtime.Serialization.OptionalFieldAttribute()>  _
+        Private responseTableField As System.Data.DataTable
+        
+        <Global.System.ComponentModel.BrowsableAttribute(false)>  _
+        Public Property ExtensionData() As System.Runtime.Serialization.ExtensionDataObject Implements System.Runtime.Serialization.IExtensibleDataObject.ExtensionData
+            Get
+                Return Me.extensionDataField
+            End Get
+            Set
+                Me.extensionDataField = value
+            End Set
+        End Property
+        
+        <System.Runtime.Serialization.DataMemberAttribute()>  _
+        Public Property Success() As Integer
+            Get
+                Return Me.SuccessField
+            End Get
+            Set
+                If (Me.SuccessField.Equals(value) <> true) Then
+                    Me.SuccessField = value
+                    Me.RaisePropertyChanged("Success")
+                End If
+            End Set
+        End Property
+        
+        <System.Runtime.Serialization.DataMemberAttribute()>  _
+        Public Property responseString() As String
+            Get
+                Return Me.responseStringField
+            End Get
+            Set
+                If (Object.ReferenceEquals(Me.responseStringField, value) <> true) Then
+                    Me.responseStringField = value
+                    Me.RaisePropertyChanged("responseString")
+                End If
+            End Set
+        End Property
+        
+        <System.Runtime.Serialization.DataMemberAttribute()>  _
+        Public Property responseTable() As System.Data.DataTable
+            Get
+                Return Me.responseTableField
+            End Get
+            Set
+                If (Object.ReferenceEquals(Me.responseTableField, value) <> true) Then
+                    Me.responseTableField = value
+                    Me.RaisePropertyChanged("responseTable")
+                End If
+            End Set
+        End Property
+        
+        Public Event PropertyChanged As System.ComponentModel.PropertyChangedEventHandler Implements System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+        
+        Protected Sub RaisePropertyChanged(ByVal propertyName As String)
+            Dim propertyChanged As System.ComponentModel.PropertyChangedEventHandler = Me.PropertyChangedEvent
+            If (Not (propertyChanged) Is Nothing) Then
+                propertyChanged(Me, New System.ComponentModel.PropertyChangedEventArgs(propertyName))
+            End If
+        End Sub
+    End Class
+    
     <System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0"),  _
      System.ServiceModel.ServiceContractAttribute(ConfigurationName:="ServiceReference1.IService1")>  _
     Public Interface IService1
         
         <System.ServiceModel.OperationContractAttribute(Action:="http://tempuri.org/IService1/GetData", ReplyAction:="http://tempuri.org/IService1/GetDataResponse")>  _
-        Function GetData(ByVal request As ServiceReference1.GetDataRequest) As ServiceReference1.GetDataResponse
-        
-        <System.ServiceModel.OperationContractAttribute(Action:="http://tempuri.org/IService1/GetData", ReplyAction:="http://tempuri.org/IService1/GetDataResponse")>  _
-        Function GetDataAsync(ByVal request As ServiceReference1.GetDataRequest) As System.Threading.Tasks.Task(Of ServiceReference1.GetDataResponse)
+        Function GetData(ByVal value As Integer) As String
         
         <System.ServiceModel.OperationContractAttribute(Action:="http://tempuri.org/IService1/validarLogin", ReplyAction:="http://tempuri.org/IService1/validarLoginResponse")>  _
-        Function validarLogin(ByVal request As ServiceReference1.validarLoginRequest) As ServiceReference1.validarLoginResponse
-        
-        <System.ServiceModel.OperationContractAttribute(Action:="http://tempuri.org/IService1/validarLogin", ReplyAction:="http://tempuri.org/IService1/validarLoginResponse")>  _
-        Function validarLoginAsync(ByVal request As ServiceReference1.validarLoginRequest) As System.Threading.Tasks.Task(Of ServiceReference1.validarLoginResponse)
+        Function validarLogin(ByVal usue As ServiceReference1.ClsUsuarioWeb) As Integer
         
         <System.ServiceModel.OperationContractAttribute(Action:="http://tempuri.org/IService1/getListaServidoresBD", ReplyAction:="http://tempuri.org/IService1/getListaServidoresBDResponse")>  _
-        Function getListaServidoresBD(ByVal request As ServiceReference1.getListaServidoresBDRequest) As ServiceReference1.getListaServidoresBDResponse
+        Function getListaServidoresBD() As System.Data.DataTable
         
-        <System.ServiceModel.OperationContractAttribute(Action:="http://tempuri.org/IService1/getListaServidoresBD", ReplyAction:="http://tempuri.org/IService1/getListaServidoresBDResponse")>  _
-        Function getListaServidoresBDAsync(ByVal request As ServiceReference1.getListaServidoresBDRequest) As System.Threading.Tasks.Task(Of ServiceReference1.getListaServidoresBDResponse)
+        <System.ServiceModel.OperationContractAttribute(Action:="http://tempuri.org/IService1/realizarQuery", ReplyAction:="http://tempuri.org/IService1/realizarQueryResponse")>  _
+        Function realizarQuery(ByVal parametros As ServiceReference1.ParametrosConexion) As ServiceReference1.PeticionBD
     End Interface
-    
-    <System.Diagnostics.DebuggerStepThroughAttribute(),  _
-     System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0"),  _
-     System.ServiceModel.MessageContractAttribute(WrapperName:="GetData", WrapperNamespace:="http://tempuri.org/", IsWrapped:=true)>  _
-    Partial Public Class GetDataRequest
-        
-        <System.ServiceModel.MessageBodyMemberAttribute([Namespace]:="http://tempuri.org/", Order:=0)>  _
-        Public value As Integer
-        
-        Public Sub New()
-            MyBase.New
-        End Sub
-        
-        Public Sub New(ByVal value As Integer)
-            MyBase.New
-            Me.value = value
-        End Sub
-    End Class
-    
-    <System.Diagnostics.DebuggerStepThroughAttribute(),  _
-     System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0"),  _
-     System.ServiceModel.MessageContractAttribute(WrapperName:="GetDataResponse", WrapperNamespace:="http://tempuri.org/", IsWrapped:=true)>  _
-    Partial Public Class GetDataResponse
-        
-        <System.ServiceModel.MessageBodyMemberAttribute([Namespace]:="http://tempuri.org/", Order:=0)>  _
-        Public GetDataResult As String
-        
-        Public Sub New()
-            MyBase.New
-        End Sub
-        
-        Public Sub New(ByVal GetDataResult As String)
-            MyBase.New
-            Me.GetDataResult = GetDataResult
-        End Sub
-    End Class
-    
-    <System.Diagnostics.DebuggerStepThroughAttribute(),  _
-     System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0"),  _
-     System.ServiceModel.MessageContractAttribute(WrapperName:="validarLogin", WrapperNamespace:="http://tempuri.org/", IsWrapped:=true)>  _
-    Partial Public Class validarLoginRequest
-        
-        <System.ServiceModel.MessageBodyMemberAttribute([Namespace]:="http://tempuri.org/", Order:=0)>  _
-        Public usue As ServiceReference1.ClsUsuarioWeb
-        
-        Public Sub New()
-            MyBase.New
-        End Sub
-        
-        Public Sub New(ByVal usue As ServiceReference1.ClsUsuarioWeb)
-            MyBase.New
-            Me.usue = usue
-        End Sub
-    End Class
-    
-    <System.Diagnostics.DebuggerStepThroughAttribute(),  _
-     System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0"),  _
-     System.ServiceModel.MessageContractAttribute(WrapperName:="validarLoginResponse", WrapperNamespace:="http://tempuri.org/", IsWrapped:=true)>  _
-    Partial Public Class validarLoginResponse
-        
-        <System.ServiceModel.MessageBodyMemberAttribute([Namespace]:="http://tempuri.org/", Order:=0)>  _
-        Public validarLoginResult As Integer
-        
-        Public Sub New()
-            MyBase.New
-        End Sub
-        
-        Public Sub New(ByVal validarLoginResult As Integer)
-            MyBase.New
-            Me.validarLoginResult = validarLoginResult
-        End Sub
-    End Class
-    
-    <System.Diagnostics.DebuggerStepThroughAttribute(),  _
-     System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0"),  _
-     System.ServiceModel.MessageContractAttribute(WrapperName:="getListaServidoresBD", WrapperNamespace:="http://tempuri.org/", IsWrapped:=true)>  _
-    Partial Public Class getListaServidoresBDRequest
-        
-        Public Sub New()
-            MyBase.New
-        End Sub
-    End Class
-    
-    <System.Diagnostics.DebuggerStepThroughAttribute(),  _
-     System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0"),  _
-     System.ServiceModel.MessageContractAttribute(WrapperName:="getListaServidoresBDResponse", WrapperNamespace:="http://tempuri.org/", IsWrapped:=true)>  _
-    Partial Public Class getListaServidoresBDResponse
-        
-        <System.ServiceModel.MessageBodyMemberAttribute([Namespace]:="http://tempuri.org/", Order:=0)>  _
-        Public getListaServidoresBDResult As System.Data.DataTable
-        
-        Public Sub New()
-            MyBase.New
-        End Sub
-        
-        Public Sub New(ByVal getListaServidoresBDResult As System.Data.DataTable)
-            MyBase.New
-            Me.getListaServidoresBDResult = getListaServidoresBDResult
-        End Sub
-    End Class
     
     <System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")>  _
     Public Interface IService1Channel
@@ -233,28 +349,20 @@ Namespace ServiceReference1
             MyBase.New(binding, remoteAddress)
         End Sub
         
-        Public Function GetData(ByVal request As ServiceReference1.GetDataRequest) As ServiceReference1.GetDataResponse Implements ServiceReference1.IService1.GetData
-            Return MyBase.Channel.GetData(request)
+        Public Function GetData(ByVal value As Integer) As String Implements ServiceReference1.IService1.GetData
+            Return MyBase.Channel.GetData(value)
         End Function
         
-        Public Function GetDataAsync(ByVal request As ServiceReference1.GetDataRequest) As System.Threading.Tasks.Task(Of ServiceReference1.GetDataResponse) Implements ServiceReference1.IService1.GetDataAsync
-            Return MyBase.Channel.GetDataAsync(request)
+        Public Function validarLogin(ByVal usue As ServiceReference1.ClsUsuarioWeb) As Integer Implements ServiceReference1.IService1.validarLogin
+            Return MyBase.Channel.validarLogin(usue)
         End Function
         
-        Public Function validarLogin(ByVal request As ServiceReference1.validarLoginRequest) As ServiceReference1.validarLoginResponse Implements ServiceReference1.IService1.validarLogin
-            Return MyBase.Channel.validarLogin(request)
+        Public Function getListaServidoresBD() As System.Data.DataTable Implements ServiceReference1.IService1.getListaServidoresBD
+            Return MyBase.Channel.getListaServidoresBD
         End Function
         
-        Public Function validarLoginAsync(ByVal request As ServiceReference1.validarLoginRequest) As System.Threading.Tasks.Task(Of ServiceReference1.validarLoginResponse) Implements ServiceReference1.IService1.validarLoginAsync
-            Return MyBase.Channel.validarLoginAsync(request)
-        End Function
-        
-        Public Function getListaServidoresBD(ByVal request As ServiceReference1.getListaServidoresBDRequest) As ServiceReference1.getListaServidoresBDResponse Implements ServiceReference1.IService1.getListaServidoresBD
-            Return MyBase.Channel.getListaServidoresBD(request)
-        End Function
-        
-        Public Function getListaServidoresBDAsync(ByVal request As ServiceReference1.getListaServidoresBDRequest) As System.Threading.Tasks.Task(Of ServiceReference1.getListaServidoresBDResponse) Implements ServiceReference1.IService1.getListaServidoresBDAsync
-            Return MyBase.Channel.getListaServidoresBDAsync(request)
+        Public Function realizarQuery(ByVal parametros As ServiceReference1.ParametrosConexion) As ServiceReference1.PeticionBD Implements ServiceReference1.IService1.realizarQuery
+            Return MyBase.Channel.realizarQuery(parametros)
         End Function
     End Class
 End Namespace
