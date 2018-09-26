@@ -1,0 +1,12 @@
+E:\VisualStudio_Project\Project\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+E:\VisualStudio_Project\Project\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+E:\VisualStudio_Project\Project\CapaPresentacion\bin\Debug\CapaPresentacion.xml
+E:\VisualStudio_Project\Project\CapaPresentacion\bin\Debug\CapaNegocio.dll
+E:\VisualStudio_Project\Project\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+E:\VisualStudio_Project\Project\CapaPresentacion\bin\Debug\CapaNegocio.xml
+E:\VisualStudio_Project\Project\CapaPresentacion\obj\Debug\CapaPresentacion.vbprojResolveAssemblyReference.cache
+E:\VisualStudio_Project\Project\CapaPresentacion\obj\Debug\CapaPresentacion.Resources.resources
+E:\VisualStudio_Project\Project\CapaPresentacion\obj\Debug\CapaPresentacion.vbproj.GenerateResource.Cache
+E:\VisualStudio_Project\Project\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+E:\VisualStudio_Project\Project\CapaPresentacion\obj\Debug\CapaPresentacion.xml
+E:\VisualStudio_Project\Project\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

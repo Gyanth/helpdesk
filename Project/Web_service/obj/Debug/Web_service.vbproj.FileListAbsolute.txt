@@ -1,0 +1,37 @@
+E:\VisualStudio_Project\Segunda Tarea\Project\Web_service\bin\Debug\Web_service.dll.config
+E:\VisualStudio_Project\Segunda Tarea\Project\Web_service\bin\Debug\Web_service.dll
+E:\VisualStudio_Project\Segunda Tarea\Project\Web_service\bin\Debug\Web_service.pdb
+E:\VisualStudio_Project\Segunda Tarea\Project\Web_service\bin\Debug\Web_service.xml
+E:\VisualStudio_Project\Segunda Tarea\Project\Web_service\bin\Debug\CapaDatos.dll
+E:\VisualStudio_Project\Segunda Tarea\Project\Web_service\bin\Debug\CapaEntidades.dll
+E:\VisualStudio_Project\Segunda Tarea\Project\Web_service\bin\Debug\CapaNegocio.dll
+E:\VisualStudio_Project\Segunda Tarea\Project\Web_service\bin\Debug\CapaDatos.pdb
+E:\VisualStudio_Project\Segunda Tarea\Project\Web_service\bin\Debug\CapaDatos.xml
+E:\VisualStudio_Project\Segunda Tarea\Project\Web_service\bin\Debug\CapaEntidades.pdb
+E:\VisualStudio_Project\Segunda Tarea\Project\Web_service\bin\Debug\CapaNegocio.pdb
+E:\VisualStudio_Project\Segunda Tarea\Project\Web_service\bin\Debug\CapaNegocio.xml
+E:\VisualStudio_Project\Segunda Tarea\Project\Web_service\obj\Debug\Web_service.vbprojResolveAssemblyReference.cache
+E:\VisualStudio_Project\Segunda Tarea\Project\Web_service\obj\Debug\Web_service.Resources.resources
+E:\VisualStudio_Project\Segunda Tarea\Project\Web_service\obj\Debug\Web_service.vbproj.GenerateResource.Cache
+E:\VisualStudio_Project\Segunda Tarea\Project\Web_service\obj\Debug\Web_service.dll
+E:\VisualStudio_Project\Segunda Tarea\Project\Web_service\obj\Debug\Web_service.xml
+E:\VisualStudio_Project\Segunda Tarea\Project\Web_service\obj\Debug\Web_service.pdb
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\Web_service\bin\Debug\Web_service.dll.config
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\Web_service\bin\Debug\Web_service.dll
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\Web_service\bin\Debug\Web_service.pdb
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\Web_service\bin\Debug\Web_service.xml
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\Web_service\bin\Debug\CapaDatos.dll
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\Web_service\bin\Debug\CapaEntidades.dll
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\Web_service\bin\Debug\CapaNegocio.dll
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\Web_service\bin\Debug\CapaDatos.pdb
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\Web_service\bin\Debug\CapaDatos.xml
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\Web_service\bin\Debug\CapaEntidades.pdb
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\Web_service\bin\Debug\CapaNegocio.pdb
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\Web_service\bin\Debug\CapaNegocio.xml
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\Web_service\obj\Debug\Web_service.vbprojResolveAssemblyReference.cache
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\Web_service\obj\Debug\Web_service.Resources.resources
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\Web_service\obj\Debug\Web_service.vbproj.GenerateResource.Cache
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\Web_service\obj\Debug\Web_service.dll
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\Web_service\obj\Debug\Web_service.xml
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\Web_service\obj\Debug\Web_service.pdb
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\Web_service\bin\Debug\CapaEntidades.xml

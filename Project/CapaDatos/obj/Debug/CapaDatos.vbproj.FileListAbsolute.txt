@@ -1,0 +1,59 @@
+E:\Mis Cosas\VisualStudio_Project\Project\CapaDatos\bin\Debug\CapaDatos.dll
+E:\Mis Cosas\VisualStudio_Project\Project\CapaDatos\bin\Debug\CapaDatos.pdb
+E:\Mis Cosas\VisualStudio_Project\Project\CapaDatos\bin\Debug\CapaDatos.xml
+E:\Mis Cosas\VisualStudio_Project\Project\CapaDatos\bin\Debug\CapaEntidades.dll
+E:\Mis Cosas\VisualStudio_Project\Project\CapaDatos\bin\Debug\CapaEntidades.pdb
+E:\Mis Cosas\VisualStudio_Project\Project\CapaDatos\bin\Debug\CapaEntidades.xml
+E:\Mis Cosas\VisualStudio_Project\Project\CapaDatos\obj\Debug\CapaDatos.vbprojResolveAssemblyReference.cache
+E:\Mis Cosas\VisualStudio_Project\Project\CapaDatos\obj\Debug\CapaDatos.Resources.resources
+E:\Mis Cosas\VisualStudio_Project\Project\CapaDatos\obj\Debug\CapaDatos.vbproj.GenerateResource.Cache
+E:\Mis Cosas\VisualStudio_Project\Project\CapaDatos\obj\Debug\CapaDatos.dll
+E:\Mis Cosas\VisualStudio_Project\Project\CapaDatos\obj\Debug\CapaDatos.xml
+E:\Mis Cosas\VisualStudio_Project\Project\CapaDatos\obj\Debug\CapaDatos.pdb
+E:\VisualStudio_Project\Project\CapaDatos\bin\Debug\CapaDatos.dll
+E:\VisualStudio_Project\Project\CapaDatos\bin\Debug\CapaDatos.pdb
+E:\VisualStudio_Project\Project\CapaDatos\bin\Debug\CapaDatos.xml
+E:\VisualStudio_Project\Project\CapaDatos\bin\Debug\CapaEntidades.dll
+E:\VisualStudio_Project\Project\CapaDatos\bin\Debug\CapaEntidades.pdb
+E:\VisualStudio_Project\Project\CapaDatos\bin\Debug\CapaEntidades.xml
+E:\VisualStudio_Project\Project\CapaDatos\obj\Debug\CapaDatos.vbprojResolveAssemblyReference.cache
+E:\VisualStudio_Project\Project\CapaDatos\obj\Debug\CapaDatos.Resources.resources
+E:\VisualStudio_Project\Project\CapaDatos\obj\Debug\CapaDatos.vbproj.GenerateResource.Cache
+E:\VisualStudio_Project\Project\CapaDatos\obj\Debug\CapaDatos.dll
+E:\VisualStudio_Project\Project\CapaDatos\obj\Debug\CapaDatos.xml
+E:\VisualStudio_Project\Project\CapaDatos\obj\Debug\CapaDatos.pdb
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\CapaDatos\bin\Debug\CapaDatos.dll
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\CapaDatos\bin\Debug\CapaDatos.pdb
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\CapaDatos\bin\Debug\CapaDatos.xml
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\CapaDatos\bin\Debug\CapaEntidades.dll
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\CapaDatos\bin\Debug\CapaEntidades.pdb
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\CapaDatos\bin\Debug\CapaEntidades.xml
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\CapaDatos\obj\Debug\CapaDatos.vbprojResolveAssemblyReference.cache
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\CapaDatos\obj\Debug\CapaDatos.Resources.resources
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\CapaDatos\obj\Debug\CapaDatos.vbproj.GenerateResource.Cache
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\CapaDatos\obj\Debug\CapaDatos.dll
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\CapaDatos\obj\Debug\CapaDatos.xml
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\CapaDatos\obj\Debug\CapaDatos.pdb
+E:\VisualStudio_Project\Segunda Tarea\Project\CapaDatos\bin\Debug\CapaDatos.dll
+E:\VisualStudio_Project\Segunda Tarea\Project\CapaDatos\bin\Debug\CapaDatos.pdb
+E:\VisualStudio_Project\Segunda Tarea\Project\CapaDatos\bin\Debug\CapaDatos.xml
+E:\VisualStudio_Project\Segunda Tarea\Project\CapaDatos\bin\Debug\CapaEntidades.dll
+E:\VisualStudio_Project\Segunda Tarea\Project\CapaDatos\bin\Debug\CapaEntidades.pdb
+E:\VisualStudio_Project\Segunda Tarea\Project\CapaDatos\obj\Debug\CapaDatos.Resources.resources
+E:\VisualStudio_Project\Segunda Tarea\Project\CapaDatos\obj\Debug\CapaDatos.vbproj.GenerateResource.Cache
+E:\VisualStudio_Project\Segunda Tarea\Project\CapaDatos\obj\Debug\CapaDatos.dll
+E:\VisualStudio_Project\Segunda Tarea\Project\CapaDatos\obj\Debug\CapaDatos.xml
+E:\VisualStudio_Project\Segunda Tarea\Project\CapaDatos\obj\Debug\CapaDatos.pdb
+E:\VisualStudio_Project\Segunda Tarea\Project\CapaDatos\obj\Debug\CapaDatos.vbprojResolveAssemblyReference.cache
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\CapaDatos\bin\Debug\CapaDatos.xml
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\CapaDatos\bin\Debug\CapaEntidades.dll
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\CapaDatos\bin\Debug\CapaEntidades.pdb
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\CapaDatos\obj\Debug\CapaDatos.vbprojResolveAssemblyReference.cache
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\CapaDatos\obj\Debug\CapaDatos.Resources.resources
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\CapaDatos\obj\Debug\CapaDatos.vbproj.GenerateResource.Cache
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\CapaDatos\obj\Debug\CapaDatos.xml
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Project\CapaDatos\bin\Debug\CapaEntidades.xml

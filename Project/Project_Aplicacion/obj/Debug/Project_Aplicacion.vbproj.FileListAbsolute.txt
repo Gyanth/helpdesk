@@ -1,0 +1,69 @@
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.vbprojResolveAssemblyReference.cache
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.Frm_Clientes.resources
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.Frm_ComandosQuery.resources
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.Frm_Login.resources
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.Frm_Principal.resources
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.Resources.resources
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.vbproj.GenerateResource.Cache
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.xml
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\Project_Aplicacion.exe.config
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\Project_Aplicacion.exe
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\Project_Aplicacion.pdb
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\Project_Aplicacion.xml
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\CapaEntidades.dll
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\CapaNegocio.dll
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\CapaDatos.dll
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\CapaEntidades.pdb
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\CapaEntidades.xml
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\CapaNegocio.pdb
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\CapaNegocio.xml
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\CapaDatos.pdb
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\CapaDatos.xml
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.exe
+E:\Mis Cosas\VisualStudio_Project\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.pdb
+E:\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\Project_Aplicacion.exe.config
+E:\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\Project_Aplicacion.exe
+E:\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\Project_Aplicacion.pdb
+E:\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\Project_Aplicacion.xml
+E:\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\CapaEntidades.dll
+E:\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\CapaNegocio.dll
+E:\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\CapaDatos.dll
+E:\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\CapaEntidades.pdb
+E:\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\CapaEntidades.xml
+E:\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\CapaNegocio.pdb
+E:\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\CapaNegocio.xml
+E:\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\CapaDatos.pdb
+E:\VisualStudio_Project\Project\Project_Aplicacion\bin\Debug\CapaDatos.xml
+E:\VisualStudio_Project\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.vbprojResolveAssemblyReference.cache
+E:\VisualStudio_Project\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.Frm_BaseDatos.resources
+E:\VisualStudio_Project\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.Frm_Comandos.resources
+E:\VisualStudio_Project\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.Frm_Login.resources
+E:\VisualStudio_Project\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.Frm_Principal.resources
+E:\VisualStudio_Project\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.Resources.resources
+E:\VisualStudio_Project\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.vbproj.GenerateResource.Cache
+E:\VisualStudio_Project\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.exe
+E:\VisualStudio_Project\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.xml
+E:\VisualStudio_Project\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.pdb
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\bin\Debug\Project_Aplicacion.exe.config
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.exe
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.xml
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.pdb
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\bin\Debug\Project_Aplicacion.exe
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\bin\Debug\Project_Aplicacion.pdb
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\bin\Debug\Project_Aplicacion.xml
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\bin\Debug\CapaEntidades.dll
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\bin\Debug\CapaNegocio.dll
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\bin\Debug\CapaDatos.dll
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\bin\Debug\CapaEntidades.pdb
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\bin\Debug\CapaEntidades.xml
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\bin\Debug\CapaNegocio.pdb
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\bin\Debug\CapaNegocio.xml
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\bin\Debug\CapaDatos.pdb
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\bin\Debug\CapaDatos.xml
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.vbprojResolveAssemblyReference.cache
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.Frm_BaseDatos.resources
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.Frm_Comandos.resources
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.Frm_Login.resources
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.Frm_Principal.resources
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.Resources.resources
+E:\Mis Cosas\VisualStudio_Project\Project_2.0\Project\Project_Aplicacion\obj\Debug\Project_Aplicacion.vbproj.GenerateResource.Cache

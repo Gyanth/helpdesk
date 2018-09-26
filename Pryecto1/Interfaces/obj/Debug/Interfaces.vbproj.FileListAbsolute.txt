@@ -1,0 +1,60 @@
+c:\users\giuseppe\documents\visual studio 2015\Projects\Pryecto1\Interfaces\bin\Debug\Interfaces.exe.config
+C:\Users\Giuseppe\documents\visual studio 2015\Projects\Pryecto1\Interfaces\obj\Debug\Interfaces.vbprojResolveAssemblyReference.cache
+C:\Users\Giuseppe\documents\visual studio 2015\Projects\Pryecto1\Interfaces\obj\Debug\Interfaces.Frm_BaseDatos.resources
+C:\Users\Giuseppe\documents\visual studio 2015\Projects\Pryecto1\Interfaces\obj\Debug\Interfaces.Frm_Comandos.resources
+C:\Users\Giuseppe\documents\visual studio 2015\Projects\Pryecto1\Interfaces\obj\Debug\Interfaces.Frm_Login.resources
+C:\Users\Giuseppe\documents\visual studio 2015\Projects\Pryecto1\Interfaces\obj\Debug\Interfaces.Frm_Principal.resources
+C:\Users\Giuseppe\documents\visual studio 2015\Projects\Pryecto1\Interfaces\obj\Debug\Interfaces.Resources.resources
+C:\Users\Giuseppe\documents\visual studio 2015\Projects\Pryecto1\Interfaces\obj\Debug\Interfaces.vbproj.GenerateResource.Cache
+C:\Users\Giuseppe\documents\visual studio 2015\Projects\Pryecto1\Interfaces\obj\Debug\Interfaces.xml
+C:\Users\Giuseppe\documents\visual studio 2015\Projects\Pryecto1\Interfaces\bin\Debug\Interfaces.exe
+C:\Users\Giuseppe\documents\visual studio 2015\Projects\Pryecto1\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\Giuseppe\documents\visual studio 2015\Projects\Pryecto1\Interfaces\bin\Debug\Interfaces.xml
+C:\Users\Giuseppe\documents\visual studio 2015\Projects\Pryecto1\Interfaces\obj\Debug\Interfaces.exe
+C:\Users\Giuseppe\documents\visual studio 2015\Projects\Pryecto1\Interfaces\obj\Debug\Interfaces.pdb
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_HELPDESK\Pryecto1\Interfaces\bin\Debug\Interfaces.exe.config
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_HELPDESK\Pryecto1\Interfaces\obj\Debug\Interfaces.exe
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_HELPDESK\Pryecto1\Interfaces\obj\Debug\Interfaces.xml
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_HELPDESK\Pryecto1\Interfaces\obj\Debug\Interfaces.pdb
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_HELPDESK\Pryecto1\Interfaces\bin\Debug\Interfaces.exe
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_HELPDESK\Pryecto1\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_HELPDESK\Pryecto1\Interfaces\bin\Debug\Interfaces.xml
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_HELPDESK\Pryecto1\Interfaces\obj\Debug\Interfaces.vbprojResolveAssemblyReference.cache
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_HELPDESK\Pryecto1\Interfaces\obj\Debug\Interfaces.Frm_BaseDatos.resources
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_HELPDESK\Pryecto1\Interfaces\obj\Debug\Interfaces.Frm_Comandos.resources
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_HELPDESK\Pryecto1\Interfaces\obj\Debug\Interfaces.Frm_Login.resources
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_HELPDESK\Pryecto1\Interfaces\obj\Debug\Interfaces.Frm_Principal.resources
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_HELPDESK\Pryecto1\Interfaces\obj\Debug\Interfaces.Resources.resources
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_HELPDESK\Pryecto1\Interfaces\obj\Debug\Interfaces.vbproj.GenerateResource.Cache
+D:\Mis Cosas\Proyecto VisualStudio\PRIMER PORYECTO - TAREAS\Segunda Tarea\Pryecto1\Interfaces\bin\Debug\Interfaces.exe.config
+D:\Mis Cosas\Proyecto VisualStudio\PRIMER PORYECTO - TAREAS\Segunda Tarea\Pryecto1\Interfaces\obj\Debug\Interfaces.exe
+D:\Mis Cosas\Proyecto VisualStudio\PRIMER PORYECTO - TAREAS\Segunda Tarea\Pryecto1\Interfaces\obj\Debug\Interfaces.xml
+D:\Mis Cosas\Proyecto VisualStudio\PRIMER PORYECTO - TAREAS\Segunda Tarea\Pryecto1\Interfaces\obj\Debug\Interfaces.pdb
+E:\VisualStudio_Project\Segunda Tarea\Pryecto1\Interfaces\bin\Debug\Interfaces.exe.config
+E:\VisualStudio_Project\Segunda Tarea\Pryecto1\Interfaces\obj\Debug\Interfaces.exe
+E:\VisualStudio_Project\Segunda Tarea\Pryecto1\Interfaces\obj\Debug\Interfaces.xml
+E:\VisualStudio_Project\Segunda Tarea\Pryecto1\Interfaces\obj\Debug\Interfaces.pdb
+E:\VisualStudio_Project\Segunda Tarea\Pryecto1\Interfaces\bin\Debug\Interfaces.exe
+E:\VisualStudio_Project\Segunda Tarea\Pryecto1\Interfaces\bin\Debug\Interfaces.pdb
+E:\VisualStudio_Project\Segunda Tarea\Pryecto1\Interfaces\bin\Debug\Interfaces.xml
+E:\VisualStudio_Project\Segunda Tarea\Pryecto1\Interfaces\obj\Debug\Interfaces.vbprojResolveAssemblyReference.cache
+E:\VisualStudio_Project\Segunda Tarea\Pryecto1\Interfaces\obj\Debug\Interfaces.Frm_BaseDatos.resources
+E:\VisualStudio_Project\Segunda Tarea\Pryecto1\Interfaces\obj\Debug\Interfaces.Frm_Comandos.resources
+E:\VisualStudio_Project\Segunda Tarea\Pryecto1\Interfaces\obj\Debug\Interfaces.Frm_Login.resources
+E:\VisualStudio_Project\Segunda Tarea\Pryecto1\Interfaces\obj\Debug\Interfaces.Frm_Principal.resources
+E:\VisualStudio_Project\Segunda Tarea\Pryecto1\Interfaces\obj\Debug\Interfaces.Resources.resources
+E:\VisualStudio_Project\Segunda Tarea\Pryecto1\Interfaces\obj\Debug\Interfaces.vbproj.GenerateResource.Cache
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Pryecto1\Interfaces\bin\Debug\Interfaces.exe.config
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Pryecto1\Interfaces\obj\Debug\Interfaces.exe
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Pryecto1\Interfaces\obj\Debug\Interfaces.xml
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Pryecto1\Interfaces\obj\Debug\Interfaces.pdb
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Pryecto1\Interfaces\bin\Debug\Interfaces.exe
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Pryecto1\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Pryecto1\Interfaces\bin\Debug\Interfaces.xml
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Pryecto1\Interfaces\obj\Debug\Interfaces.vbprojResolveAssemblyReference.cache
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Pryecto1\Interfaces\obj\Debug\Interfaces.Frm_BaseDatos.resources
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Pryecto1\Interfaces\obj\Debug\Interfaces.Frm_Comandos.resources
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Pryecto1\Interfaces\obj\Debug\Interfaces.Frm_Login.resources
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Pryecto1\Interfaces\obj\Debug\Interfaces.Frm_Principal.resources
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Pryecto1\Interfaces\obj\Debug\Interfaces.Resources.resources
+C:\Users\Giuseppe\Documents\Visual Studio 2015\Projects\PROYECTO_PRODUCCION\Pryecto1\Interfaces\obj\Debug\Interfaces.vbproj.GenerateResource.Cache
